@@ -1,0 +1,17 @@
+{
+  "name": "longnv-member-sports-platform",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo ready"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^34.0.0"
+  }
+}
