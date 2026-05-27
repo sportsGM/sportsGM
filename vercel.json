@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "functions": {
+    "api/games.js": {
+      "maxDuration": 10
+    },
+    "api/analyze.js": {
+      "maxDuration": 10
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/games",
+      "dest": "/api/games.js"
+    },
+    {
+      "src": "/api/analyze",
+      "dest": "/api/analyze.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/public/$1"
+    }
+  ]
+}
